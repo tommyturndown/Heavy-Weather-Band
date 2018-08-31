@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,|Exo:100,200,300,400,500,600,700');
+
+body{
+    background-image: url("/assets/images/concert.jpg");
+}
+#nav{
+    background-color:rgba(0,0,0,0.5);
+   font-size:25px;
+   text-align:center;
+    margin-right:20px;
+}
+
+
+a{
+    color: #ffa500;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration:none;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.list-inline{
+    top:30px;
+    left:500px;
+     font-size:25px;
+}
+
+.jumbotron{
+    background-color:transparent;
+    color:#ffffff;
+    
+}
+
+
+
+h3{
+    color:#ffa500;
+    text-align: center;
+    background-color:rgba(0,0,0,0.0625);
+}
+
+p{
+    text-align: center;
+    color:#ffffff;
+    background-color:rgba(0,0,0,0.0625);
+}
+    
+
+.glyphicon{
+    color:#ffa500;
+}
+
+
+
+    
+
+/*----------------------------------------------------------miscelaneous*/
+footer{
+    
+   
+    text-align: center;
+}
+
+
+    
