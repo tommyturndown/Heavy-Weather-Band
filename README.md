@@ -1,12 +1,13 @@
 <h1> The Heavy weather Band </h1>
 
-<p>On this project  I made up the fictional "Heavy Weather Band" to form my milestone project.I got the name from the crew band "Heavyweatherband"
-on board the QE2.
+On the landing page, the user is met with a concert scene with red glowing stage and the crowd in the foreground.I found this free image using Google Advanced Search.
+The scene is of an indoor conceret/event.
 
-The aim is to develop a website showcasing the band and to market it as a 60s rock band. The website will contain music videos,photographs, blogs, 
-and testamonials. Our target audience are weddings, private functions and christmas parties etc. 
-  
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+The callout container under the navigation bar bears the name of the fictional band,"The Heavy Weather band and their fictional logo;"You've got a stormfront comin'..".
+The name of the band uses the jumbotron callout container to immediately grab attention with the logo in smaller text underneath. Both texts are in white with the red /blackimage 
+in the background.
+
+For marketing purposes, the main article has three w3 cards readily visible under the callout section.-. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
     '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
