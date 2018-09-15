@@ -1,27 +1,22 @@
 body {
     background-image: url("/assets/images/concert.jpg");
-    background-repeat:no-repeat;
+    background-repeat:repeat-y;
     height: 100%;
     background-size: cover;
+}
+.content {
+    max-width: 980px;
+    margin: auto;
 }
 
 /*-----------------------------------------------------navbar*/
 
-#nav {
-    margin-left: 40px;
-    font-size: 25px;
-    text-align: center;
-
-}
-#header{
-    text-align: center;
-    display: inline-block;
+a{
+    color:#ffa500;
 }
 
 
-a {
-    color: #ffa500;
-}
+
 
 a:hover {
     color: #ffffff;
@@ -35,51 +30,82 @@ a:hover {
 .list-inline {
     top: 30px;
     left: 500px;
-    font-size: 25px;
     text-align: center;
+    font-size: 25px;
+    color:#FF9633;
+
+}
+.inline-block {
+    margin-left: 30px;
+
 }
 
 .jumbotron {
     background-color: transparent;
     color: #ffffff;
-
+    text-align: center;
+    margin-left:0px;
+    
+}
+h1 {
+    color:#ffffff;
+}
+h2 {
+    background-color: transparent;
+}
+h4 {
+    color:white;
+}
+p {
+    color: #ffffff;
+    text-align: center;
 }
 
 
 
 .w3-card-1{
+    margin-left:0px;
     text-align: center;
     height:auto;
     width:auto;
     background-color:rgba(0,0,0,0.25);
+     
 
 }
 
 .w3-card-2 {
     text-align: center;
+     
 
 }
 
 .w3-card-3 {
     text-align: center;
-
+    
 
 }
 
 .w3-card-4 {
-
+    text-align: center;
     height: 400px;
-    width: 420px;
-    margin-left: 100px;
+    width: 520px;
+    margin-left: 8px;
 
 }
 
 .w3-card-5 {
+    text-align: center;
     height: 400px;
     width: 420px;
     margin-left: 760px;
     margin-top: -120px;
 }
+
+.container {
+    margin-top:15px;
+    padding:15px;
+}
+          
 
 
 
@@ -123,11 +149,14 @@ a:hover {
 /*--------------------------------------------------buttons*/
 
 .btn {
+    margin-left: 0;
     background-color: #FF9633;
     border-color:  #FF9633;
     color:#ffffff;
     font-weight: bold;
     border-radius: 23px;
+    margin-top:20px;
+    
 }
 .btn:hvr {
     color:#fcff33;
@@ -139,78 +168,100 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-
-
 /*----------------------------------------------------------footer*/
 
-footer {
+.footer {
     text-align: center;
     margin-top: 10px;
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 120px;
+    height: 20px;
+    width:100%;
+    margin-bottom: 0;
 }
 
-.list-inline {
-    margin-top: 20px;
-    font-size: 35px;
-    color:#FF9633;
-    
-    
-}
+
+
+
 .inline-block{
     color:#FF9633  ;
 }
 
-    
-h4{
-    color:#E5E8E8  ;
-    
-}
+/*-------------------------------------------------dropdown button*/
 
-h4 a{
-    color:#E5E8E8  ;
-}
+
+
+
+
 /*------------------------------------------------@media*/
-@media(max-width: 992px){
-    footer{
-        height:200px;
-        margin-top: 0;
-    } 
-     
-    header{
-        text-align: center;
-        display: inline-block;
-        }
-    callout{
-         text-align: center;
-        display: inline-block;
-        
-    }
+@media (max-width: 768px){
+   
+body{
+    margin-left:20px;
+    text-align: center;
+    font: 16px/1.5 sans-serif;
+    padding-top: 40px;
+    background-color: #000000;
+}
 
-   
-    w3-card-6{
-        text-align: center;
-        display: inline-block;
-    }
-   
-    w3-card-7{
-        text-align: center;
-        display: inline-block;
-    }
-    w3-card-9{
-        text-align: center;
-        display: inline-block;
-        margin-left: 40px;
-    }
-    w3-card-8{
-        text-align: center;
-        display: inline-block;
-    }
-    .list-inline{
-        background-color: #000000;
-    }
+.w3-card-4 {
+    float:left;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+}
+input[type=checkbox]{
+    display: none;
+}
+label{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: #FF9633;
+    border-radius: 23px;
+    padding: 15px 20px;
+
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul{
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+    margin:0;
+    padding:0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+    display: none;
+}
+ul li{
+    padding: 15px;
+    background-color: #000000;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+input[type=checkbox]:checked ~ ul {
+    display: block;
+}
 
 }
+
