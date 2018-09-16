@@ -88,7 +88,7 @@ p {
 .w3-card-4 {
     text-align: center;
     height: 400px;
-    width: 520px;
+    width: 420px;
     margin-left: 8px;
 
 }
@@ -101,10 +101,6 @@ p {
     margin-top: -120px;
 }
 
-.container {
-    margin-top:15px;
-    padding:15px;
-}
 
           
 
@@ -150,7 +146,7 @@ p {
 /*--------------------------------------------------buttons*/
 
 .btn {
-    margin-left: 0;
+    margin-left: 0px;
     background-color: #FF9633;
     border-color:  #FF9633;
     color:#ffffff;
@@ -168,6 +164,7 @@ button[type="submit"] {
     background-color: #ffa500;
     color: #fafafa;
 }
+
 
 /*----------------------------------------------------------footer*/
 
@@ -206,10 +203,32 @@ body{
     padding-top: 40px;
     background-color: #000000;
 }
-
-.w3-card-4 {
+iframe {
+    margin-left:-50px;
+    border-left:0;
+    padding-left:0;
     float:left;
 }
+.gallery {
+     margin-left:-10px;
+}
+.btn {
+    margin-left: 0px;
+    background-color: #FF9633;
+    border-color:  #FF9633;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 23px;
+    margin-top:20px;
+    
+}
+.btn btn-secondary  {
+    margin-left:-70px;
+    border-radius:23px;
+}
+
+
+
 .dropdown{
     position:relative;
     display: inline-block;
@@ -262,6 +281,14 @@ ul li{
 
 input[type=checkbox]:checked ~ ul {
     display: block;
+}
+.list-inline {
+    margin-bottom: 30px;
+
+}
+.container {
+    margin-bottom: 10px;
+    margin-top:10px;
 }
 
 }

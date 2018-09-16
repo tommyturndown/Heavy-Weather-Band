@@ -7,14 +7,18 @@ The Heavy Weather Band has had 50 year's experience playing at different events 
 Their target audience nowadays are music festivals, community events,barndances,weddings and other events such as christmas parties, birthday parties,retirements etc. They're still going strong
 and have lost none of their popularity, and they would like a modern, rich website to showcase their talents and to generate revenue to suppliment their income. 
 
+UX
+
 On the landing page, the user is met with a concert scene with red glowing stage and the crowd in the foreground.I found this free image using Google Advanced Search.
-The scene is of an indoor conceret/event.
+The scene is of an indoor conceret/event.Each page has that same background to ensure continuity.
 
 The callout container under the navigation bar bears the name of the band,"The Heavy Weather band and their logo;"You've got a stormfront comin'..".
 The name of the band uses the jumbotron callout container to immediately grab attention with the logo in smaller italic text underneath. Both texts are in white with a red /black image 
 in the background.
 
-Navigation.
+Features
+
+Existing features
 
 With the mobile-first design in mind, the user has a dropdown menu at the top of the screen that has links to the Home, About, Playlist,Gallery, Reviews and Contact pages.
 On the medium and larger desktop screens, the navigation bar is spread across the top of the page with the various links turning to white when hovered.
@@ -35,7 +39,7 @@ The fifth feature, which is vivible on medium and larger screens only, is an act
 
 The footer element contains a row of social links, linking the user to the band's social media pages including Facebook,Instagram,Twitter,Pinterest and YouTube.
 On larger screens, there is also The Wedding band association logo and a link to the band's IMRO licence, which are not as commercially sensitive.
-
+There were no wireframes or mockups used in this project, although I drew my inspiration from "The Great Escape Wedding Band" and their website.
 
 Pages.
 
@@ -50,8 +54,26 @@ The Reviews page is made up of testimonials from previous satisfied customers, w
 
 Finally, the Contact page has a default contact request form whereby the user supplies their name,email, phone number and the type of event they're planning.
 
-For marketing purposes, the main article has three w3 cards readily visible under the callout section.
-. ,---.   ,--.,------.  ,------.
+Features left to implement.
+
+Technonogies used.
+
+Bootstrap 3.3.7.
+     The project uses Bootstrap version 3.3.7 for HTML, CSS, and JS framework.
+     https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     
+Font awesome 4.7.0.
+     The project uses Font Awesome as a font and icon toolkit.
+     https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+     
+CDNJS
+     The project uses CDNJS as a Javascript Repository
+     "https://cdnjs.cloudflare.com/ajax/libs/fallback/1.1.9/fallback.min.js"
+     
+     
+Testing.
+
+Home page. 
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
    www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
     https://www.mp3juices.cc/ '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
