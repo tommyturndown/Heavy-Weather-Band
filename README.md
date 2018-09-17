@@ -24,8 +24,8 @@ With the mobile-first design in mind, the user has a dropdown menu at the top of
 On the medium and larger desktop screens, the navigation bar is spread across the top of the page with the various links turning to white when hovered.
 
 
-On the main body of the homepage,there are three initial features with links. The first is an invitation to attend a band showcase, where the user can attend a live recording 
-of one of the band's performances in-studio in Limerick. There's a default button to bring the user to Google Calendars (TM) to pre-book the show.
+On the main body of the homepage,there are three initial features with links. The first is an invitation to attend a band showcase, where the user can attend a live rehearsal. 
+of one of the band's performances in-studio in Limerick. There's a default button to bring the user to Google Calendars (TM) to pre-book their attendance at the rehearsal.
 
 The second feature is a link to some video and audio content belonging to the band.
 
@@ -73,17 +73,127 @@ CDNJS
      
 Testing.
 
-Home page. 
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-   www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    https://www.mp3juices.cc/ '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+Home page. Tested in Mobile  XS first, then SM, MD and LG. Fully legible with dropdown menu and all the links functioning. Promotional video working with sound.
+The band showcase link brings the user to four dates in October that the band is rehearsing in-studio.
+
+About page.Tested in Mobile  XS first, then SM, MD and LG. Fully legible with all the links working.
+
+Playlist page. Tested in Mobile  XS first, then SM, MD and LG. Fully legible with dropdown menu and all the links functioning. Adjusted the font size to font size 4.
+
+Gallery page. Images justified centre om XS and SM. Transforms to two rows on MD and LG. dropdown menu and all links functioning.
+
+Reviews page. Tested in Mobile  XS first, then SM, MD and LG. Fully legible with all the links working. Adjusted the font size to font size 4.
+
+Contact page.  Tested in Mobile  XS first, then SM, MD and LG. Fully legible with all the links working. Submit button at the bottom of the contact form working.
+Tried to leave the contact fields totally and partially blank and the relevant message appears "Please fill out this field".
+
+Music page. Tested in Mobile  XS first, then SM, MD and LG. Menu and all links working. All audio and video content working.
+
+Credits.
+(Method 2 MLA Style)
+
+Videos.    The Great Escape Wedding Band Promo.
+            Campbell, Eric.
+            Published on 3rd september 2013.
+            Internet/YouTube.
+            Accessed on 16/8/18
+            
+            
+            Catch 22 Wedding Band.
+            Red Entertainment
+            Published on 17th Dec 2017.
+            Internet/YouTube.
+            Accessed on 16/8/18
+            
+            Vegas Nights Wedding Band
+            Rock 'n' Roll Medley 2017.
+            vagasnightsireland.
+            Published on 10th Sep 2017.
+            Internet/YouTube.
+            Accessed on 16/8/18
+            
+            Wedding Band Dublin - Vertigo.
+            Entertainment Ideas.
+            Published on 10th Mar 2017.
+            Internet/YouTube.
+            Accessed on 16/8/18
+            
+            Promo - THE WEDDING ROCK BAND.
+            Concertio a la carta.
+            published on 26th nov 2013.
+            Internet/YouTube.
+            Accessed on 16/8/18
+            
+Audio.      1927 - That's When I Think Of You (1988)
+            Channel 1927
+            Published on 4th June 2013.
+            Internet. https://www.mp3juices.cc/
+            Accessed on 16/8/18
+            
+            The Alarm - Rain in the Summertime.
+            Vasilis Pavlou.
+            Published on 23 May 2010.
+            UMG (on behalf of I.R.S. Records); União Brasileira de Compositores,
+            CMRRA, Bicycle Music Co. (Publishing), and 3 music rights societies.
+            Internet. https://www.mp3juices.cc/
+            Accessed on 16/8/18
+            
+            The Hooters - Satellite.
+            TheHootersVevo
+            Published on 3rd apr 2013.
+            SME (on behalf of Columbia); CMRRA, PEDL, Warner Chappell,
+            The Royalty Network (Publishing), ASCAP, UMPG Publishing,
+            UBEM, and 7 music rights societies
+            Internet. https://www.mp3juices.cc/
+            Accessed on 16/8/18
+            
+Images.
+
+            Rock Band On Stage เวกเตอร์สต 3ก
+            www.shutterstock.com
+            350656649
+            Google Search.
+            
+            www.shutterstock.com
+            613863785
+            Google Search.
+             
+            www.shutterstock.com
+            241529821
+            Google Search.
+             
+            How to get game gem without jailbreak
+            The Eddie Fouse Band
+            Google Search.
+            
+            Explore hashtag #moshen - Insta
+            InstaOrenya.com
+            Google Search.
+            
+            Beatles Guitar Wii Game
+            Google search
+            
+            File:Hinder on stage.jpg - Wikimedia
+            Google Search.
+            
+            Party Wallpaper Backgrounds
+            File:Hinder on stage.jpg
+            From Wikimedia Commons, the free media repository
+            Google search.
+            
+            
+    
+Acknowledgements.
+
+            I received inspiration for this project from The Great Escape Wedding Band website.
+            I also drew ideas from prevoius projects/walkthroughs from my course so far, 
+            including the Whiskey drop and Resume excercises.
     ----------------------------------------------------------------- 
 
 
 
 
-Happy coding!
+
 The Cloud9 IDE team# Heavy-Weather-Band
 # Heavy-Weather-Band
 # Heavy-Weather-Band
