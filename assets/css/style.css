@@ -12,7 +12,7 @@ body {
 /*-----------------------------------------------------navbar*/
 
 a{
-    color:#ffa500;
+    color: #FF9633;
 }
 
 
@@ -35,10 +35,7 @@ a:hover {
     color:#FF9633;
 
 }
-.inline-block {
-    margin-left: 30px;
 
-}
 
 .jumbotron {
     background-color: transparent;
@@ -56,9 +53,7 @@ h2 {
 h4 {
     color:white;
 }
-h6 {
-    margin-bottom: 40px;
-}
+
 p {
     color: #ffffff;
     text-align: center;
@@ -126,13 +121,10 @@ p {
 .gallery{
     
     margin:15px;
-    border:1px solid #ccc;
     float:left;
     width:280px;
 }
-.gallery:hover{
-    border:1px solid #777;
-}
+
 .gallery img {
     width:100%;
     height:100%;
@@ -180,7 +172,7 @@ button[type="submit"] {
     right: 0;
     height: 20px;
     width:100%;
-    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 
@@ -188,9 +180,11 @@ button[type="submit"] {
 
 .inline-block{
     color:#FF9633;
+    justify-content:center;
+    align-items:center;
 }
 
-/*-------------------------------------------------dropdown button*/
+
 
 
 
