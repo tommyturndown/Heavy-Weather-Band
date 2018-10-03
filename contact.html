@@ -19,9 +19,15 @@
     <header>
         <!---------------------------------------------------------------------------------navigation---->
         
-        <div class="container-fluid hidden-xs hidden-sm col-md-12 col-lg-12">
-
+        <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+            
             <ul id="nav" class="list-inline clearfix">
+                <style>
+                .list-inline {
+                    width:60%;
+                    height:60px; 
+                    }
+            </style>
                 <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-home menuitem">
                     <a href="../index.html" class=" hvr-change "><span>Home</span></a>
                 </li>
@@ -65,32 +71,63 @@
         
         </nav>
     </header>
-
-  
-                <section class="container-fluid">
-        
-            
-                <h3 class="contact-heading uppercase text-center">Contact Us</h3>
-                
-            </div>
-            </div>
             <article>
+
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <article>
+<h2>Contact us</h2>
+ 
+            
             <div class="center-form">
+                <style>
+                    .center-form {
+                        margin-top:40px;
+                    }
+                </style>
                 <form>
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="fullname" placeholder="Email" required/>
                      <input type="text" name="Phone Number" class="form-control" id="fullname" placeholder="Phone Number" required/>
                     <textarea rows="7" name="projectsummary" class="form-control" id="projectsummary" placeholder="Event Description"></textarea>
-                    
                     <button type="submit" class="btn btn-default">Send</button>
-                    
+                    <style>
+                        .btn-default:hover {
+                            background-color:#FF8C00;
+                        }
+                    </style>
                 </form>
            
-    </section>
+    </article>
                 
                 
  <footer>
-            
+      <style>
+      
+    footer{
+        position:absolute;
+        bottom:-100px;
+        width:100%;
+        }
+         @media (max-width: 768px){
+        footer{
+            position:absolute;
+        }
+        .list-inline {
+          margin-left:30px;
+      }
+      button[type="submit"] {
+          text-align:center;
+          width:70px;
+          margin-left:0px;
+    
+          
+      }
+      form{
+          margin-left:-10px;
+      }
+    }
+</style>
+       
                 
 <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
 
@@ -101,7 +138,7 @@
         <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
 
 
-            <a href="../music.html"><span><h3>Videos</h3></span></a>
+            <a href="../video.html"><span><h3>Videos</h3></span></a>
 
         </div>
 

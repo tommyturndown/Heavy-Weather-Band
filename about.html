@@ -21,36 +21,34 @@
 
 
 
+    <header>
+        <nav>
+            <!---------------------------------------------------------------------------------navigation---->
+            <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+
+                <ul id="nav" class="list-inline">
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <a href="../index.html" class=" hvr-change "><span>Home</span></a>
+                    </li>
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-blog menuitem ">
+                        <a href="../about.html" class="hvr-change"><span>About</span></a>
+                    </li>
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-playlist menuitem">
+                        <a href="../playlist.html" class=" hvr-change-playlist "><span>Playlist</span></a>
+                    </li>
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-about menuitem ">
+                        <a href="../gallery.html" class="hvr-change"><span>Gallery</span></a>
+                    </li>
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-contact menuitem">
+                        <a href="../reviews.html" calss=" hvr-change"><span>Reviews</span></a>
+                    </li>
+                    <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-reviews menuitem ">
+                        <a href="../contact.html" class="hvr-change"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
 
 
-    <nav>
-        <!---------------------------------------------------------------------------------navigation---->
-        <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
-
-            <ul id="nav" class="list-inline">
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
-                    <a href="../index.html" class=" hvr-change "><span>Home</span></a>
-                </li>
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-blog menuitem ">
-                    <a href="../about.html" class="hvr-change"><span>About</span></a>
-                </li>
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-playlist menuitem">
-                    <a href="../playlist.html" class=" hvr-change-playlist "><span>Playlist</span></a>
-                </li>
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-about menuitem ">
-                    <a href="../gallery.html" class="hvr-change"><span>Gallery</span></a>
-                </li>
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-contact menuitem">
-                    <a href="../reviews.html" calss=" hvr-change"><span>Reviews</span></a>
-                </li>
-                <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-reviews menuitem ">
-                    <a href="../contact.html" class="hvr-change"><span>Contact</span></a>
-                </li>
-            </ul>
-        </div>
-
-
-    
             <div class="hidden-md hidden-lg">
                 <div class="dropdown">
                     <input type="checkbox" id="checkbox-toggle">
@@ -67,22 +65,31 @@
 
 
 
-    </nav>
+        </nav>
+    </header>
 
-     <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
         <h2 class="container-fluid text-center">About</h2>
-    
+        <style>
+            @media (max-width: 768px) {
+                .container-fluid {
+                    margin-left: -20px;
+                }
+            }
+        </style>
 
-    
 
 
-        
-            <p><font size="4" </font>Choosing the right band for your wedding or special event can be a daunting task with so many bands out there to choose from.<br> We've been together for the past 20 years playing at countless events here in Ireland and abroad, so we know
+
+
+        <p>
+            <font size="4" </font>Choosing the right band for your wedding or special event can be a daunting task with so many bands out there to choose from.<br> We've been together for the past 20 years playing at countless events here in Ireland and abroad, so we know
                 what it takes to make your <br> special day or occasion go off with a bang!!</p>
 
         <p>With a surperb repotoire of music from the 60's to the present day, we have an extensive playlist that has something for everyone<br> both young and old. Our philosophy is solely to entertain your guests and we deliver a professional show on all
-            occasions.<br> Why not get in touch?? We look forward to hearing from you!!</p>
+            occasions.
+            <br> Why not get in touch?? We look forward to hearing from you!!</p>
 
 
         <div class="w3-card-5 hidden-xs hidden-sm">
@@ -90,26 +97,33 @@
                 <a href="gallery.html"><img src="../assets/images/rockstar.jpg"></a>
             </div>
         </div>
-</article>
-    
+    </article>
+
     <footer>
 
 
-<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-<a href="../music.html"><span><h3>Soundclips</h3></span></a>
+        <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+            <a href="../music.html"><span><h3>Soundclips</h3></span></a>
         </div>
 
-        <div class= "hidden-xs hidden-smcol-md-2 col-lg-2">
-            <a href="../music.html"><span><h3>Videos</h3></span></a>
+        <div class="hidden-xs hidden-smcol-md-2 col-lg-2">
+            <a href="../video.html"><span><h3>Videos</h3></span></a>
 
         </div>
         <style>
-    footer{
-        position:absolute;
-        bottom:-140px;
-        margin-top:400px;
-    }
-</style>
+            footer {
+                position: fixed;
+                bottom: -140px;
+                margin-top: 400px;
+            }
+
+            @media (max-width: 768px) {
+                footer {
+                    bottom: -180px;
+                    margin-left: -20px;
+                }
+            }
+        </style>
 
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <div class="list-inline inline-social">
