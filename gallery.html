@@ -16,9 +16,31 @@
 
     <header>
         <!---------------------------------------------------------------------------------navigation---->
-        <div class="container-fluid hidden-xs hidden-sm col-md-12 col-lg-12">
+        <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
 
-            <ul id="nav" class="list-inline clearfix">
+            <div class="list-inline">
+                 <style>
+                .list-inline{
+                           background-color:#000000;
+                           width:60%;
+                           height:60px;
+                           font-size:25px;
+                           padding-top:10px;
+                           margin-left:-40px;
+                       }
+                    
+                    a {
+                        color: #ff9633;
+                    }
+                    a:hover {
+                    color: #ffffff;
+                    text-decoration: none;
+                    transition: 0.5s ease-in-out;
+                    -moz-transition: 0.5s ease-in-out;
+                    -webkit-transition: 0.5s ease-in-out;
+                    -o-transition: 0.5s ease-in-out;
+                    }
+            </style>
                 <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-home menuitem">
                     <a href="../index.html" class=" hvr-change "><span>Home</span></a>
                 </li>
@@ -52,6 +74,8 @@
         <li><a href="../gallery.html">Gallery</a></li>
         <li><a href="../reviews.html">Reviews</a></li>
         <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../music.html">Sound</a></li>
+        <li><a href="../video.html">Video</a></li>
         
     </ul>
     </nav>
@@ -132,6 +156,7 @@
         position:fixed;
         bottom:0;
         margin-top:400px;
+        margin-left:-20px;
     }
     @media (max-width: 768px){
         footer {

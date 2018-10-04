@@ -1,10 +1,13 @@
 
 
 /*-----------------------------------------------------navbar*/
-#nav {
+.nav {
     width:60%;
     height:60px;
     background-color:#000000;
+    color:#ff9633;
+    font-size:25px;
+    padding-top:10px;
 }
 a {
     color: #FF9633;
@@ -36,6 +39,7 @@ a:hover {
     color:#ff9633;
     padding-top:15px;
     height:40px;
+    width:60%;
 }
 .list-inline inline-social {
     padding-bottom:20px;
@@ -81,7 +85,7 @@ p {
     height: 250px;
     width: 250px;
     margin-left: 420px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .container {
     text-align: center;
@@ -113,7 +117,7 @@ p {
     max-width: 70%;
 }
 form{
-    background-color: #D3D3D3;
+    background-color: #d1e3ec;
 }
 .contact-heading {
     background-color:#000000;
@@ -125,7 +129,7 @@ form{
 /*--------------------------------------------------buttons*/
 
 .btn {
-    margin-left: 0px;
+    width:100px;
     background-color: #FF9633;
     border-color: #FF9633;
     color:#ffffff;
@@ -135,7 +139,7 @@ form{
 }
 
 button[type="submit"] {
-    width:400px;
+    
     margin-left: 260px;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -267,6 +271,7 @@ ul li{
     cursor: pointer;
     white-space: pre-wrap;
     word-spacing: normal;
+    border:5px;
 }
 
 

@@ -26,7 +26,14 @@
             <!---------------------------------------------------------------------------------navigation---->
             <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
 
-                <ul id="nav" class="list-inline">
+                <div class="list-inline"><id="nav">
+                     <style>
+                       .list-inline{
+                           background-color:#000000;
+                           height:60px;
+                           margin-left:-20px;
+                       }
+                   </style>
                     <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
                         <a href="../index.html" class=" hvr-change "><span>Home</span></a>
                     </li>
@@ -60,6 +67,8 @@
                         <li><a href="../gallery.html">Gallery</a></li>
                         <li><a href="../reviews.html">Reviews</a></li>
                         <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../music.html">Sound</a></li>
+                        <li><a href="../video.html">Video</a></li>
                     </ul>
 
 
@@ -84,6 +93,7 @@
 
 
         <p>
+            
             <font size="4" </font>Choosing the right band for your wedding or special event can be a daunting task with so many bands out there to choose from.<br> We've been together for the past 20 years playing at countless events here in Ireland and abroad, so we know
                 what it takes to make your <br> special day or occasion go off with a bang!!</p>
 
@@ -93,7 +103,8 @@
 
 
         <div class="w3-card-5 hidden-xs hidden-sm">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+           
+            <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
                 <a href="gallery.html"><img src="../assets/images/rockstar.jpg"></a>
             </div>
         </div>
@@ -112,9 +123,10 @@
         </div>
         <style>
             footer {
-                position: fixed;
-                bottom: -140px;
-                margin-top: 400px;
+                position:absolute;
+                bottom:-240px;
+                margin-top: 300px;
+                margin-left:-20px;
             }
 
             @media (max-width: 768px) {
