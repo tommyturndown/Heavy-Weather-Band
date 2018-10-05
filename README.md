@@ -24,22 +24,9 @@ With the mobile-first design in mind, the user has a dropdown menu at the top of
 On the medium and larger desktop screens, the navigation bar is spread across the top of the page with the various links turning to white when hovered.
 
 
-On the main body of the homepage,there are three initial features with links. The first is an invitation to attend a band showcase, where the user can attend a live rehearsal. 
-of one of the band's performances in-studio in Limerick. There's a default button to bring the user to Google Calendars (TM) to pre-book their attendance at the rehearsal.
-
-The second feature is a link to some video and audio content belonging to the band.
-
-the third feature is a link to the Reviews page.
-
-All three links are accessed by a default button set in orange to compliment the image in the background.
-
-Under the three main features lies a fourth feature- an iframe with a promotional video of the band playing at various events such as weddings,retirements and christmas parties etc.
-
-The fifth feature, which is vivible on medium and larger screens only, is an action shot of The Heavy Weather Band performing live on stage, with the lead singer interacting with the crowd.
 
 The footer element contains a row of social links, linking the user to the band's social media pages including Facebook,Instagram,Twitter,Pinterest and YouTube.
-On larger screens, there is also The Wedding band association logo and a link to the band's IMRO licence, which are not as commercially sensitive.
-There were no wireframes or mockups used in this project, although I drew my inspiration from "The Great Escape Wedding Band" and their website.
+
 
 Pages.
 
@@ -99,11 +86,6 @@ Videos.    The Great Escape Wedding Band Promo.
             Accessed on 16/8/18
             
             
-            Catch 22 Wedding Band.
-            Red Entertainment
-            Published on 17th Dec 2017.
-            Internet/YouTube.
-            Accessed on 16/8/18
             
             Vegas Nights Wedding Band
             Rock 'n' Roll Medley 2017.
@@ -112,11 +94,6 @@ Videos.    The Great Escape Wedding Band Promo.
             Internet/YouTube.
             Accessed on 16/8/18
             
-            Wedding Band Dublin - Vertigo.
-            Entertainment Ideas.
-            Published on 10th Mar 2017.
-            Internet/YouTube.
-            Accessed on 16/8/18
             
             Promo - THE WEDDING ROCK BAND.
             Concertio a la carta.

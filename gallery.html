@@ -16,54 +16,9 @@
 
     <header>
         <!---------------------------------------------------------------------------------navigation---->
-        <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
-
-            <div class="list-inline">
-                 <style>
-                .list-inline{
-                           background-color:#000000;
-                           width:60%;
-                           height:60px;
-                           font-size:25px;
-                           padding-top:10px;
-                           margin-left:-40px;
-                       }
-                    
-                    a {
-                        color: #ff9633;
-                    }
-                    a:hover {
-                    color: #ffffff;
-                    text-decoration: none;
-                    transition: 0.5s ease-in-out;
-                    -moz-transition: 0.5s ease-in-out;
-                    -webkit-transition: 0.5s ease-in-out;
-                    -o-transition: 0.5s ease-in-out;
-                    }
-            </style>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-home menuitem">
-                    <a href="../index.html" class=" hvr-change "><span>Home</span></a>
-                </li>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-blog menuitem ">
-                    <a href="../about.html" class="hvr-change"><span>About</span></a>
-                </li>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-playlist menuitem">
-                    <a href="../playlist.html" class=" hvr-change-playlist "><span>Playlist</span></a>
-                </li>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-about menuitem ">
-                    <a href="../gallery.html" class="hvr-change"><span>Gallery</span></a>
-                </li>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-contact menuitem">
-                    <a href="../reviews.html" calss=" hvr-change "><span>Reviews</span></a>
-                </li>
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 ui-menu-reviews menuitem ">
-                    <a href="../contact.html" calss="hvr-change"><span>Contact</span></a>
-                </li>
-            </ul>
-        </div>
-        
-        
-                 <div class="hidden-md hidden-lg">         
+       
+        <nav>
+                 <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">         
 <div class="dropdown">
     <input type="checkbox" id="checkbox-toggle">
     <label for="checkbox-toggle">Menu</label>
@@ -80,6 +35,40 @@
     </ul>
     </nav>
     </header>
+    
+       <header>
+        <nav>
+ <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+                 <ul id="nav" class="list-inline">
+                <style>
+                       .list-inline{
+                            width:60%;
+                            height:60px;
+                            background-color:#000000;
+                            color:#ff9633;
+                            font-size:25px;
+                            padding-top:10px;
+                       }
+                   </style>
+                     <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <a href="../index.html" class="hvr-change "><span>Home</span></a>
+                    </li>
+                        <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <li><a href="../about.html class="hvr-change">About</a></li>
+                        <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <li><a href="../playlist.html class="hvr-change">Playlist</a></li>
+                        <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <li><a href="../gallery.html class="hvr-change">Gallery</a></li>
+                        <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <li><a href="../reviews.html class="hvr-change">Reviews</a></li>
+                        <li class="col-xs-hidden col-sm-hidden col-md-2 col-lg-2 ui-menu-home menuitem">
+                        <li><a href="../contact.html class="hvr-change">Contact</a></li>
+                    </ul>
+
+    </div>
+    </nav>
+    </header>
+    
   
           <article> 
          
@@ -153,15 +142,12 @@
         </div>
           <style>
     footer{
-        position:fixed;
+        background-color:#000000;
+        position:absolute;
         bottom:0;
-        margin-top:400px;
+        margin-bottom:-200px;
         margin-left:-20px;
-    }
-    @media (max-width: 768px){
-        footer {
-            bottom:-20px;
-        }
+   
     }
 </style>
 
